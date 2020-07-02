@@ -37,7 +37,7 @@ function checkForMatch() {
                  firstCard.classList.remove('flip');
                  secondCard.classList.remove('flip');
                  resetBoard();
-               }, 1500);
+               }, 500);
              }
              function resetBoard() {
                    [hasFlippedCard, lockBoard] = [false, false];
